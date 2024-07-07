@@ -5,7 +5,7 @@ use std::time::{Duration, SystemTime};
 use uuid::Uuid;
 use lazy_static::lazy_static;
 
-const DEFAULT_PORT: &str = "80";
+const DEFAULT_PORT: &str = "8080";
 
 lazy_static! {
     static ref START_TIME: Mutex<SystemTime> = Mutex::new(SystemTime::now());
