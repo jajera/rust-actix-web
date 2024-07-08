@@ -10,3 +10,4 @@ reqwest = "0.12.5"
 serde = { version = "1.0.204", features = ["derive"] }
 sysinfo = "0.30.12"
 uuid = { version = "1.9.1", features = ["v4"] }
+openssl = { version = "0.10.64", features = ["vendored"] }
